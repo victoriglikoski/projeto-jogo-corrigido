@@ -1,0 +1,114 @@
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #111827;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+}
+
+
+main {
+
+    padding-top: 20px;
+
+}
+
+
+h1 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.placar {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    margin: 15px;
+
+}
+
+
+#jogo {
+
+    width: 700px;
+
+    height: 450px;
+
+    margin: 20px auto;
+
+    position: relative;
+
+    border: 3px solid white;
+
+    background-color: #1f2937;
+
+    overflow: hidden;
+
+}
+
+
+#jogador {
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 100px;
+
+    font-size: 40px;
+
+    user-select: none;
+
+}
+
+
+#moeda {
+
+    position: absolute;
+
+    left: 300px;
+
+    top: 200px;
+
+    font-size: 35px;
+
+    user-select: none;
+
+}
+
+
+#inimigo {
+
+    position: absolute;
+
+    left: 500px;
+
+    top: 200px;
+
+    font-size: 40px;
+
+    user-select: none;
+
+}
+
+
+#mensagem {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
